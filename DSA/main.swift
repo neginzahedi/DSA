@@ -28,3 +28,17 @@ print(isPalindromeResult3)  // true
 
 let isPalindromeResult4 = AlgorithmUtils.isPalindrome(-131)
 print(isPalindromeResult4)  // false
+
+
+// 3. romanToInt
+let romanToInt1 = AlgorithmUtils.romanToInt("III")
+print(romanToInt1)  // 3
+
+let romanToInt2 = AlgorithmUtils.romanToInt("IV")
+print(romanToInt2)  // 4
+
+let romanToInt3 = AlgorithmUtils.romanToInt("LVIII")
+print(romanToInt3)  // 58
+
+let romanToInt4 = AlgorithmUtils.romanToInt("MCMXCIV")
+print(romanToInt4)
