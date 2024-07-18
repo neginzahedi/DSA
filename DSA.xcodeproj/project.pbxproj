@@ -10,6 +10,7 @@
 		0F7236B22B7D84BB0071DA14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7236B12B7D84BB0071DA14 /* main.swift */; };
 		0FC5A8A32C49BFD700B569F0 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */; };
 		0FC5A8A52C49C03200B569F0 /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */; };
+		0FC5A8AA2C49C32600B569F0 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5A8A92C49C32600B569F0 /* LongestCommonPrefix.swift */; };
 		0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		0F7236B12B7D84BB0071DA14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
+		0FC5A8A92C49C32600B569F0 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */,
 				0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */,
 				0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */,
+				0FC5A8A92C49C32600B569F0 /* LongestCommonPrefix.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -107,7 +110,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					0F7236AD2B7D84BB0071DA14 = {
 						CreatedOnToolsVersion = 15.2;
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7236B22B7D84BB0071DA14 /* main.swift in Sources */,
+				0FC5A8AA2C49C32600B569F0 /* LongestCommonPrefix.swift in Sources */,
 				0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */,
 				0FC5A8A52C49C03200B569F0 /* RomanToInt.swift in Sources */,
 				0FC5A8A32C49BFD700B569F0 /* TwoSum.swift in Sources */,
@@ -181,6 +185,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -244,6 +249,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -269,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 66MQ5QVH5G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 66MQ5QVH5G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

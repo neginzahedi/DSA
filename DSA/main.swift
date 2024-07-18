@@ -2,8 +2,6 @@
 //  main.swift
 //  DSA
 //
-//  Created by Negin Zahedi on 2024-02-14.
-//
 
 // MARK: - Two Sum
 let twoSumResult1 = twoSum([2,7,11,15], 9)
@@ -42,3 +40,10 @@ print(romanToInt3)  // 58
 
 let romanToInt4 = romanToInt("MCMXCIV")
 print(romanToInt4)
+
+// MARK: - Longest Common Prefix
+let longestCommonPrefix1 = longestCommonPrefix(["flower","flow","flight"])
+print(longestCommonPrefix1) // fl
+
+let longestCommonPrefix2 = longestCommonPrefix(["dog","racecar","car"])
+print(longestCommonPrefix2) // empty string
