@@ -63,12 +63,20 @@
 		0F7236B02B7D84BB0071DA14 /* DSA */ = {
 			isa = PBXGroup;
 			children = (
+				0FC5A8A82C49C2CD00B569F0 /* Easy */,
 				0F7236B12B7D84BB0071DA14 /* main.swift */,
-				0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */,
-				0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */,
-				0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */,
 			);
 			path = DSA;
+			sourceTree = "<group>";
+		};
+		0FC5A8A82C49C2CD00B569F0 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */,
+				0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */,
+				0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */,
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
