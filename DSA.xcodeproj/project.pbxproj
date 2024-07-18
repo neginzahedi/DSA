@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F7236B22B7D84BB0071DA14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7236B12B7D84BB0071DA14 /* main.swift */; };
-		0FF03FAA2B813A4C0010D635 /* AlgorithmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF03FA92B813A4C0010D635 /* AlgorithmUtils.swift */; };
+		0FC5A8A32C49BFD700B569F0 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */; };
+		0FC5A8A52C49C03200B569F0 /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */; };
+		0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +28,9 @@
 /* Begin PBXFileReference section */
 		0F7236AE2B7D84BB0071DA14 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7236B12B7D84BB0071DA14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0FF03FA92B813A4C0010D635 /* AlgorithmUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmUtils.swift; sourceTree = "<group>"; };
+		0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
+		0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0F7236B12B7D84BB0071DA14 /* main.swift */,
-				0FF03FA92B813A4C0010D635 /* AlgorithmUtils.swift */,
+				0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */,
+				0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */,
+				0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */,
 			);
 			path = DSA;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7236B22B7D84BB0071DA14 /* main.swift in Sources */,
-				0FF03FAA2B813A4C0010D635 /* AlgorithmUtils.swift in Sources */,
+				0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */,
+				0FC5A8A52C49C03200B569F0 /* RomanToInt.swift in Sources */,
+				0FC5A8A32C49BFD700B569F0 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
