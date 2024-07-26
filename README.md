@@ -7,3 +7,4 @@ This repository contains solutions to data structure and algorithm problems from
 - isPalindrome (easy)
 - romanToInt (easy)
 - longestCommonPrefix (easy)
+- ValidParentheses (easy)
