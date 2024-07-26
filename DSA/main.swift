@@ -47,3 +47,13 @@ print(longestCommonPrefix1) // fl
 
 let longestCommonPrefix2 = longestCommonPrefix(["dog","racecar","car"])
 print(longestCommonPrefix2) // empty string
+
+// MARK: - Valid Parentheses
+print(isValid("()")) // Output: true
+print(isValid("()[]{}")) // Output: true
+print(isValid("(]")) // Output: false
+print(isValid("([)]")) // Output: false
+print(isValid("{[]}")) // Output: true
+print(isValid("")) // Output: false
+print(isValid("(")) // Output: false
+
