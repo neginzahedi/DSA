@@ -6,3 +6,4 @@ This repository contains solutions to data structure and algorithm problems from
 - twoSum (easy)
 - isPalindrome (easy)
 - romanToInt (easy)
+- longestCommonPrefix (easy)
