@@ -112,4 +112,48 @@ final class DSATests: XCTestCase {
         XCTAssertEqual(Array(nums5.prefix(removeDuplicates(&nums5))), [1])
     }
     
+    // MARK: - Remove Element
+    func testRemoveElement() {
+          // Test case 1: Multiple occurrences of the element to remove
+          var nums1 = [3, 2, 2, 3]
+          let val1 = 3
+          let result1 = removeElement(&nums1, val1)
+          XCTAssertEqual(result1, 2)
+          XCTAssertEqual(Array(nums1[0..<result1]), [2, 2])
+
+          // Test case 2: No occurrences of the element to remove
+          var nums2 = [1, 2, 3, 4, 5]
+          let val2 = 6
+          let result2 = removeElement(&nums2, val2)
+          XCTAssertEqual(result2, 5)
+          XCTAssertEqual(Array(nums2[0..<result2]), [1, 2, 3, 4, 5])
+
+          // Test case 3: All elements are the element to remove
+          var nums3 = [7, 7, 7, 7]
+          let val3 = 7
+          let result3 = removeElement(&nums3, val3)
+          XCTAssertEqual(result3, 0)
+          XCTAssertEqual(Array(nums3[0..<result3]), [])
+
+          // Test case 4: Empty array
+          var nums4: [Int] = []
+          let val4 = 1
+          let result4 = removeElement(&nums4, val4)
+          XCTAssertEqual(result4, 0)
+          XCTAssertEqual(Array(nums4[0..<result4]), [])
+
+          // Test case 5: One element in the array matching the value to remove
+          var nums5 = [9]
+          let val5 = 9
+          let result5 = removeElement(&nums5, val5)
+          XCTAssertEqual(result5, 0)
+          XCTAssertEqual(Array(nums5[0..<result5]), [])
+
+          // Test case 6: One element in the array not matching the value to remove
+          var nums6 = [10]
+          let val6 = 9
+          let result6 = removeElement(&nums6, val6)
+          XCTAssertEqual(result6, 1)
+          XCTAssertEqual(Array(nums6[0..<result6]), [10])
+      }
 }
