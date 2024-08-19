@@ -9,3 +9,4 @@ This repository contains solutions to data structure and algorithm problems from
 - longestCommonPrefix (easy)
 - ValidParentheses (easy)
 - mergeTwoLists (easy)
+- removeDuplicates (easy)
