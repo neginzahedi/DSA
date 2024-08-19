@@ -8,3 +8,4 @@ This repository contains solutions to data structure and algorithm problems from
 - romanToInt (easy)
 - longestCommonPrefix (easy)
 - ValidParentheses (easy)
+- mergeTwoLists (easy)
