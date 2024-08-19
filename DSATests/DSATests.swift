@@ -82,4 +82,34 @@ final class DSATests: XCTestCase {
         }
         return l1 == nil && l2 == nil
     }
+    
+    // MARK: - Remove Duplicates from Sorted Array
+    func testRemoveDuplicates(){
+        // Test Case 1: Array with duplicates
+        var nums1 = [1, 1, 2]
+        XCTAssertEqual(removeDuplicates(&nums1), 2)
+        XCTAssertEqual(Array(nums1.prefix(removeDuplicates(&nums1))), [1,2])
+        
+        // Test Case 2: Array with no duplicates
+        var nums2 = [1, 2, 3]
+        XCTAssertEqual(removeDuplicates(&nums2), 3)
+        XCTAssertEqual(Array(nums2.prefix(removeDuplicates(&nums2))), [1,2,3])
+        
+        // Test Case 3: Array with all elements the same
+        var nums3 = [1, 1, 1, 1]
+        XCTAssertEqual(removeDuplicates(&nums3), 1)
+        XCTAssertEqual(Array(nums3.prefix(removeDuplicates(&nums3))), [1])
+
+        
+        // Test Case 4: Empty array
+        var nums4 = [Int]()
+        XCTAssertEqual(removeDuplicates(&nums4), 0)
+        XCTAssertEqual(Array(nums4.prefix(removeDuplicates(&nums4))), [])
+        
+        // Test Case 5: Single element array
+        var nums5 = [1]
+        XCTAssertEqual(removeDuplicates(&nums5), 1)
+        XCTAssertEqual(Array(nums5.prefix(removeDuplicates(&nums5))), [1])
+    }
+    
 }
