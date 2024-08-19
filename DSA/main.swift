@@ -3,57 +3,30 @@
 //  DSA
 //
 
-// MARK: - Two Sum
-let twoSumResult1 = twoSum([2,7,11,15], 9)
-print(twoSumResult1)    // [0,1]
+/*
+ Project Overview:
+ 
+ This project contains solutions to various Data Structure and Algorithms problems implemented in Swift.
+ 
+ - Each problem has its own Swift file located in the `Questions` directory.
+ - The function implementations for each problem are stored in these files, named appropriately according to the problem.
+ 
+ Testing Overview:
+ 
+ - Corresponding tests for each function are located in the `DSATests` directory.
+ - DSATests test file includes both the test cases and the execution of these tests.
+ - You can run these tests directly in Xcode by opening the respective file in the `Tests` directory and executing it.
+ 
+ How to Use:
+ 
+ - To view or edit a problem’s solution, navigate to the `Questions` directory.
+ - To run tests for a specific solution, navigate to the `Tests` directory and open the test file.
+ - Running the test file in Xcode will execute all tests and provide feedback on the correctness of the solution.
+ 
+ Note:
+ 
+ This `Main.swift` file is kept minimal and primarily serves as a placeholder to guide users on how to navigate and use the project.
+ */
 
-let twoSumResult2 = twoSum([3,2,4], 6)
-print(twoSumResult1)    // [1,2]
-
-let twoSumResult3 = twoSum([3,3], 6)
-print(twoSumResult3)    // [0,1]
-
-// MARK: - Is Palindrome
-
-let isPalindromeResult1 = isPalindrome(1421)
-print(isPalindromeResult1)  // false
-
-let isPalindromeResult2 = isPalindrome(1441)
-print(isPalindromeResult2)  // true
-
-let isPalindromeResult3 = isPalindrome(131)
-print(isPalindromeResult3)  // true
-
-let isPalindromeResult4 = isPalindrome(-131)
-print(isPalindromeResult4)  // false
-
-
-// MARK: - romanToInt
-let romanToInt1 = romanToInt("III")
-print(romanToInt1)  // 3
-
-let romanToInt2 = romanToInt("IV")
-print(romanToInt2)  // 4
-
-let romanToInt3 = romanToInt("LVIII")
-print(romanToInt3)  // 58
-
-let romanToInt4 = romanToInt("MCMXCIV")
-print(romanToInt4)
-
-// MARK: - Longest Common Prefix
-let longestCommonPrefix1 = longestCommonPrefix(["flower","flow","flight"])
-print(longestCommonPrefix1) // fl
-
-let longestCommonPrefix2 = longestCommonPrefix(["dog","racecar","car"])
-print(longestCommonPrefix2) // empty string
-
-// MARK: - Valid Parentheses
-print(isValid("()")) // Output: true
-print(isValid("()[]{}")) // Output: true
-print(isValid("(]")) // Output: false
-print(isValid("([)]")) // Output: false
-print(isValid("{[]}")) // Output: true
-print(isValid("")) // Output: false
-print(isValid("(")) // Output: false
+print("Please refer to the Tests directory for running specific test cases.")
 
