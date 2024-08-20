@@ -72,14 +72,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F29CE042C73BBE000D94E8C /* Questions */ = {
-			isa = PBXGroup;
-			children = (
-				0FC5A8A82C49C2CD00B569F0 /* Easy */,
-			);
-			path = Questions;
-			sourceTree = "<group>";
-		};
 		0F7236A52B7D84BB0071DA14 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +93,26 @@
 		0F7236B02B7D84BB0071DA14 /* DSA */ = {
 			isa = PBXGroup;
 			children = (
-				0F29CE042C73BBE000D94E8C /* Questions */,
+				0F9BB8BF2C7531CB00DC0295 /* HackerRank */,
+				0F9BB8BE2C7531BB00DC0295 /* LeetCode */,
 				0F7236B12B7D84BB0071DA14 /* main.swift */,
 			);
 			path = DSA;
+			sourceTree = "<group>";
+		};
+		0F9BB8BE2C7531BB00DC0295 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5A8A82C49C2CD00B569F0 /* Easy */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		0F9BB8BF2C7531CB00DC0295 /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HackerRank;
 			sourceTree = "<group>";
 		};
 		0FC5A8A82C49C2CD00B569F0 /* Easy */ = {
