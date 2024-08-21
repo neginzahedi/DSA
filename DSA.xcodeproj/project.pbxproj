@@ -157,10 +157,10 @@
 				0F9BB8C02C75322300DC0295 /* PlusMinus.swift */,
 				0FE4EC532C766B9300090D87 /* Staircase.swift */,
 				0F9BB8C42C75392400DC0295 /* MiniMaxSum.swift */,
+				0FD384F92C7675FD00BAADE3 /* BirthdayCakeCandles.swift */,
 				0F9BB8C72C7544DC00DC0295 /* TimeConversion.swift */,
 				0F258C272C756941003B080E /* LonelyInteger.swift */,
 				0FE4EC472C7646BD00090D87 /* CountingSort.swift */,
-				0FD384F92C7675FD00BAADE3 /* BirthdayCakeCandles.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
