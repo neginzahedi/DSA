@@ -73,4 +73,11 @@ final class HackerRankTests: XCTestCase {
         let expectedOutput6 = "23:59:59"
         XCTAssertEqual(timeConversion(s: time6), expectedOutput6)
     }
+    
+    // MARK: - gradingStudents
+    func testGradingStudents(){
+        let input = [86, 30, 0, 16, 51, 53, 42, 48, 22, 69, 12, 27, 34, 24, 95, 16, 32, 22, 52]
+        let expectedOutput = [86, 30, 0, 16, 51, 55, 42, 50, 22, 70, 12, 27, 34, 24, 95, 16, 32, 22, 52]
+        XCTAssertEqual(gradingStudents(grades: input), expectedOutput)
+    }
 }
