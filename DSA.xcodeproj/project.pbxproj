@@ -149,6 +149,7 @@
 		0F9BB8BF2C7531CB00DC0295 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				0FD124FB2C77BE490004BD8D /* Implementation */,
 				0F9BB8C32C75391700DC0295 /* Warmup */,
 			);
 			path = HackerRank;
@@ -167,8 +168,6 @@
 				0F9BB8C72C7544DC00DC0295 /* TimeConversion.swift */,
 				0F258C272C756941003B080E /* LonelyInteger.swift */,
 				0FE4EC472C7646BD00090D87 /* CountingSort.swift */,
-				0FD124F52C77A1000004BD8D /* gradingStudents.swift */,
-				0FD124F82C77BA370004BD8D /* CountApplesAndOranges.swift */,
 			);
 			path = Warmup;
 			sourceTree = "<group>";
@@ -186,6 +185,15 @@
 				0FAC76AF2C740BF6004E92CD /* RemoveElement.swift */,
 			);
 			path = Easy;
+			sourceTree = "<group>";
+		};
+		0FD124FB2C77BE490004BD8D /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				0FD124F52C77A1000004BD8D /* gradingStudents.swift */,
+				0FD124F82C77BA370004BD8D /* CountApplesAndOranges.swift */,
+			);
+			path = Implementation;
 			sourceTree = "<group>";
 		};
 		0FFCAF262C73BF4D0043A6F0 /* DSATests */ = {
