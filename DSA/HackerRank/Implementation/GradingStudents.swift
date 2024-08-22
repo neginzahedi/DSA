@@ -1,5 +1,5 @@
 //
-//  gradingStudents.swift
+//  GradingStudents.swift
 //  DSA
 //
 
