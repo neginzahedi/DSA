@@ -4,7 +4,6 @@ This repository contains solutions to data structure and algorithm problems from
 
 ### LeetCode Problems:
 - Easy
-  - 
   - [twoSum](DSA/LeetCode/Easy/TwoSum.swift)
   - [isPalindrome](DSA/LeetCode/Easy/IsPalindrome.swift)
   - [romanToInt](DSA/LeetCode/Easy/RomanToInt.swift)
