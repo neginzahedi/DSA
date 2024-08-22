@@ -143,12 +143,12 @@
 		0F9BB8BF2C7531CB00DC0295 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
-				0F9BB8C32C75391700DC0295 /* Basic */,
+				0F9BB8C32C75391700DC0295 /* Easy */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
 		};
-		0F9BB8C32C75391700DC0295 /* Basic */ = {
+		0F9BB8C32C75391700DC0295 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
 				0FE4EC4D2C7665B300090D87 /* CompareTriplets.swift */,
@@ -162,7 +162,7 @@
 				0F258C272C756941003B080E /* LonelyInteger.swift */,
 				0FE4EC472C7646BD00090D87 /* CountingSort.swift */,
 			);
-			path = Basic;
+			path = Easy;
 			sourceTree = "<group>";
 		};
 		0FC5A8A82C49C2CD00B569F0 /* Easy */ = {
