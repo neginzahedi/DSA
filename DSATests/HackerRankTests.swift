@@ -109,4 +109,13 @@ final class HackerRankTests: XCTestCase {
         let result4 = breakingRecords(scores: scores4)
         XCTAssertEqual(result4, [3, 3], "Expected [4, 2] for the given scores.")
     }
+    
+    // MARK: - birthday
+    func testBirthday(){
+        // Test Case 1
+        XCTAssertEqual(birthday(s: [1,2,1,3,2], d: 3, m: 2), 2, "Expected 2 for the given input.")
+        
+        // Test Case 2
+        XCTAssertEqual(birthday(s: [4], d: 4, m: 1), 1, "Expected 1 for the given input.")
+    }
 }
