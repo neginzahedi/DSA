@@ -47,27 +47,27 @@ final class HackerRankTests: XCTestCase {
         let time1 = "12:00:00AM"
         let expectedOutput1 = "00:00:00"
         XCTAssertEqual(timeConversion(s: time1), expectedOutput1)
-
+        
         // Test Case 2: Convert 01:05:45AM to 01:05:45
         let time2 = "01:05:45AM"
         let expectedOutput2 = "01:05:45"
         XCTAssertEqual(timeConversion(s: time2), expectedOutput2)
-
+        
         // Test Case 3: Convert 12:00:00PM to 12:00:00
         let time3 = "12:00:00PM"
         let expectedOutput3 = "12:00:00"
         XCTAssertEqual(timeConversion(s: time3), expectedOutput3)
-
+        
         // Test Case 4: Convert 07:05:45PM to 19:05:45
         let time4 = "07:05:45PM"
         let expectedOutput4 = "19:05:45"
         XCTAssertEqual(timeConversion(s: time4), expectedOutput4)
-
+        
         // Test Case 5: Convert 11:59:59AM to 11:59:59
         let time5 = "11:59:59AM"
         let expectedOutput5 = "11:59:59"
         XCTAssertEqual(timeConversion(s: time5), expectedOutput5)
-
+        
         // Test Case 6: Convert 11:59:59PM to 23:59:59
         let time6 = "11:59:59PM"
         let expectedOutput6 = "23:59:59"
@@ -85,5 +85,28 @@ final class HackerRankTests: XCTestCase {
     func testKangaroo(){
         XCTAssertEqual(kangaroo(x1: 0, v1: 3, x2: 4, v2: 2), "YES")
         XCTAssertEqual(kangaroo(x1: 0, v1: 3, x2: 5, v2: 3), "NO")
+    }
+    
+    // MARK: - breakingRecords
+    func testBreakingRecords(){
+        // Test Case 1:
+        let scores1: [Int] = []
+        let result1 = breakingRecords(scores: scores1)
+        XCTAssertEqual(result1, [0, 0], "Expected [0, 0] when there are no scores.")
+        
+        // Test Case 2:
+        let scores2 = [10]
+        let result2 = breakingRecords(scores: scores2)
+        XCTAssertEqual(result2, [0, 0], "Expected [0, 0] when there is only one score.")
+        
+        // Test Case 3:
+        let scores3 = [10, 10, 10, 10]
+        let result3 = breakingRecords(scores: scores3)
+        XCTAssertEqual(result3, [0, 0], "Expected [0, 0] when no records are broken.")
+        
+        // Test Case 4:
+        let scores4 = [10, 5, 20, 20, 4, 25, 2, 30]
+        let result4 = breakingRecords(scores: scores4)
+        XCTAssertEqual(result4, [3, 3], "Expected [4, 2] for the given scores.")
     }
 }
