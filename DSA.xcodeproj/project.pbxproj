@@ -36,6 +36,8 @@
 		0FD124F72C77A1000004BD8D /* GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD124F52C77A1000004BD8D /* GradingStudents.swift */; };
 		0FD124F92C77BA370004BD8D /* CountApplesAndOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD124F82C77BA370004BD8D /* CountApplesAndOranges.swift */; };
 		0FD124FA2C77BA370004BD8D /* CountApplesAndOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD124F82C77BA370004BD8D /* CountApplesAndOranges.swift */; };
+		0FD124FD2C77C5180004BD8D /* Kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD124FC2C77C5180004BD8D /* Kangaroo.swift */; };
+		0FD124FE2C77C5180004BD8D /* Kangaroo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD124FC2C77C5180004BD8D /* Kangaroo.swift */; };
 		0FD384FA2C7675FD00BAADE3 /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD384F92C7675FD00BAADE3 /* BirthdayCakeCandles.swift */; };
 		0FD384FB2C7675FD00BAADE3 /* BirthdayCakeCandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD384F92C7675FD00BAADE3 /* BirthdayCakeCandles.swift */; };
 		0FE4EC482C7646BD00090D87 /* CountingSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4EC472C7646BD00090D87 /* CountingSort.swift */; };
@@ -80,6 +82,7 @@
 		0FC5A8A92C49C32600B569F0 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		0FD124F52C77A1000004BD8D /* GradingStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingStudents.swift; sourceTree = "<group>"; };
 		0FD124F82C77BA370004BD8D /* CountApplesAndOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountApplesAndOranges.swift; sourceTree = "<group>"; };
+		0FD124FC2C77C5180004BD8D /* Kangaroo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kangaroo.swift; sourceTree = "<group>"; };
 		0FD384F92C7675FD00BAADE3 /* BirthdayCakeCandles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCakeCandles.swift; sourceTree = "<group>"; };
 		0FE4EC472C7646BD00090D87 /* CountingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSort.swift; sourceTree = "<group>"; };
 		0FE4EC4D2C7665B300090D87 /* CompareTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareTriplets.swift; sourceTree = "<group>"; };
@@ -192,6 +195,7 @@
 			children = (
 				0FD124F52C77A1000004BD8D /* GradingStudents.swift */,
 				0FD124F82C77BA370004BD8D /* CountApplesAndOranges.swift */,
+				0FD124FC2C77C5180004BD8D /* Kangaroo.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -297,6 +301,7 @@
 				0F9BB8C82C7544DC00DC0295 /* TimeConversion.swift in Sources */,
 				0FAC76AD2C73E21A004E92CD /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				0FE4EC512C76690100090D87 /* AVeryBigSum.swift in Sources */,
+				0FD124FD2C77C5180004BD8D /* Kangaroo.swift in Sources */,
 				0F7236B22B7D84BB0071DA14 /* main.swift in Sources */,
 				0FD124F92C77BA370004BD8D /* CountApplesAndOranges.swift in Sources */,
 				0FEF8E102C52F197000AA27A /* ValidParentheses.swift in Sources */,
@@ -340,6 +345,7 @@
 				0FAC76AB2C73CBCD004E92CD /* MergeTwoSortedLists.swift in Sources */,
 				0FAC76B12C7413D2004E92CD /* RemoveElement.swift in Sources */,
 				0FD124F72C77A1000004BD8D /* GradingStudents.swift in Sources */,
+				0FD124FE2C77C5180004BD8D /* Kangaroo.swift in Sources */,
 				0F258C2C2C7574B1003B080E /* DiagonalDifference.swift in Sources */,
 				0F9BB8C22C75322300DC0295 /* PlusMinus.swift in Sources */,
 				0FE4EC4F2C7665B300090D87 /* CompareTriplets.swift in Sources */,

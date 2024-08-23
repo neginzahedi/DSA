@@ -80,4 +80,10 @@ final class HackerRankTests: XCTestCase {
         let expectedOutput = [86, 30, 0, 16, 51, 55, 42, 50, 22, 70, 12, 27, 34, 24, 95, 16, 32, 22, 52]
         XCTAssertEqual(gradingStudents(grades: input), expectedOutput)
     }
+    
+    // MARK: - Kangaroo
+    func testKangaroo(){
+        XCTAssertEqual(kangaroo(x1: 0, v1: 3, x2: 4, v2: 2), "YES")
+        XCTAssertEqual(kangaroo(x1: 0, v1: 3, x2: 5, v2: 3), "NO")
+    }
 }
