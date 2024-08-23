@@ -118,4 +118,9 @@ final class HackerRankTests: XCTestCase {
         // Test Case 2
         XCTAssertEqual(birthday(s: [4], d: 4, m: 1), 1, "Expected 1 for the given input.")
     }
+    
+    // MARK: - divisibleSumPairs
+    func testDivisibleSumPairs(){
+        XCTAssertEqual(divisibleSumPairs(n: 6, k: 3, ar: [1,3,2,6,1,2]), 5, "Expected 5 for the given input.")
+    }
 }
