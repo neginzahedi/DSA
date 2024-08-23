@@ -13,14 +13,16 @@ This repository contains solutions to data structure and algorithm problems from
   - [removeDuplicates](DSA/LeetCode/Easy/RemoveDuplicatesFromSortedArray.swift)
   - [removeElement](DSA/LeetCode/Easy/RemoveElement.swift)
 
-### HackerRank Problems:
-- Easy
-  - [compareTriplets](DSA/HackerRank/Basic/CompareTriplets.swift)
-  - [aVeryBigSum](DSA/HackerRank/Basic/AVeryBigSum.swift)
-  - [diagonalDifference](DSA/HackerRank/Basic/DiagonalDifference.swift)
-  - [plusMinus](DSA/HackerRank/Basic/PlusMinus.swift)
-  - [staircase](DSA/HackerRank/Basic/Staircase.swift)
-  - [miniMaxSum](DSA/HackerRank/Basic/MiniMaxSum.swift)
-  - [timeConversion](DSA/HackerRank/Basic/TimeConversion.swift)
-  - [lonelyinteger](DSA/HackerRank/Basic/LonelyInteger.swift)
-  - [countingSort](DSA/HackerRank/Basic/CountingSort.swift)
+## HackerRank Problems:
+
+| Waemup | Implementation |
+|--------|----------------|
+| [Compare the Triplets](DSA/HackerRank/Warmup/CompareTriplets.swift) | [Grading Students](DSA/HackerRank/Implementation/GradingStudents.swift)|
+| [A Very Big Sum](DSA/HackerRank/Warmup/AVeryBigSum.swift) | [Apple and Orange](DSA/HackerRank/Implementation/CountApplesAndOranges.swift) |
+| [Diagonal Difference](DSA/HackerRank/Warmup/DiagonalDifference.swift) | [Number Line Jumps](DSA/HackerRank/Implementation/Kangaroo.swift) |
+| [Plus Minus](DSA/HackerRank/Warmup/PlusMinus.swift) ||
+| [Staircase](DSA/HackerRank/Warmup/Staircase.swift) ||
+| [Mini-Max Sum](DSA/HackerRank/Warmup/MiniMaxSum.swift) ||
+| [Time Conversion](DSA/HackerRank/Warmup/TimeConversion.swift) ||
+| [Lonely Integer](DSA/HackerRank/Warmup/LonelyInteger.swift) ||                              
+| [Counting Sort](DSA/HackerRank/Warmup/CountingSort.swift) ||
