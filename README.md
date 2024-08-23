@@ -20,7 +20,7 @@ This repository contains solutions to data structure and algorithm problems from
 | [Compare the Triplets](DSA/HackerRank/Warmup/CompareTriplets.swift) | [Grading Students](DSA/HackerRank/Implementation/GradingStudents.swift)|
 | [A Very Big Sum](DSA/HackerRank/Warmup/AVeryBigSum.swift) | [Apple and Orange](DSA/HackerRank/Implementation/CountApplesAndOranges.swift) |
 | [Diagonal Difference](DSA/HackerRank/Warmup/DiagonalDifference.swift) | [Number Line Jumps](DSA/HackerRank/Implementation/Kangaroo.swift) |
-| [Plus Minus](DSA/HackerRank/Warmup/PlusMinus.swift) ||
+| [Plus Minus](DSA/HackerRank/Warmup/PlusMinus.swift) | [Breaking The Records](DSA/HackerRank/Implementation/BreakingTheRecords.swift) |
 | [Staircase](DSA/HackerRank/Warmup/Staircase.swift) ||
 | [Mini-Max Sum](DSA/HackerRank/Warmup/MiniMaxSum.swift) ||
 | [Time Conversion](DSA/HackerRank/Warmup/TimeConversion.swift) ||
