@@ -142,6 +142,12 @@ final class HackerRankTests: XCTestCase {
         XCTAssertEqual(superReducedString(s: "aaabccddd"), "abd")
         XCTAssertEqual(superReducedString(s: "aa"), "Empty String")
         XCTAssertEqual(superReducedString(s: "baab"), "Empty String")
-
+    }
+    
+    // MARK: - camelCase
+    func testCamelCase(){
+        XCTAssertEqual(camelcase(s: "saveChangesInTheEditor"), 5)
+        XCTAssertEqual(camelcase(s: ""), 0)
+        XCTAssertEqual(camelcase(s: "test"), 1)
     }
 }
