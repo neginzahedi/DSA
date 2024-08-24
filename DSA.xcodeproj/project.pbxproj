@@ -17,6 +17,8 @@
 		0F63CB8C2C7A4CB00084B5B3 /* SuperReducedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63CB8A2C7A4CB00084B5B3 /* SuperReducedString.swift */; };
 		0F63CB8E2C7A58720084B5B3 /* CamelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63CB8D2C7A58720084B5B3 /* CamelCase.swift */; };
 		0F63CB8F2C7A58720084B5B3 /* CamelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63CB8D2C7A58720084B5B3 /* CamelCase.swift */; };
+		0F63CB912C7A5C560084B5B3 /* StrongPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63CB902C7A5C560084B5B3 /* StrongPassword.swift */; };
+		0F63CB922C7A5C560084B5B3 /* StrongPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63CB902C7A5C560084B5B3 /* StrongPassword.swift */; };
 		0F7236B22B7D84BB0071DA14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7236B12B7D84BB0071DA14 /* main.swift */; };
 		0F9BB8C12C75322300DC0295 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BB8C02C75322300DC0295 /* PlusMinus.swift */; };
 		0F9BB8C22C75322300DC0295 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BB8C02C75322300DC0295 /* PlusMinus.swift */; };
@@ -86,6 +88,7 @@
 		0F63CB832C7A36CE0084B5B3 /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
 		0F63CB8A2C7A4CB00084B5B3 /* SuperReducedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperReducedString.swift; sourceTree = "<group>"; };
 		0F63CB8D2C7A58720084B5B3 /* CamelCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamelCase.swift; sourceTree = "<group>"; };
+		0F63CB902C7A5C560084B5B3 /* StrongPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongPassword.swift; sourceTree = "<group>"; };
 		0F7236AE2B7D84BB0071DA14 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7236B12B7D84BB0071DA14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0F9BB8C02C75322300DC0295 /* PlusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
@@ -139,6 +142,7 @@
 			children = (
 				0F63CB8A2C7A4CB00084B5B3 /* SuperReducedString.swift */,
 				0F63CB8D2C7A58720084B5B3 /* CamelCase.swift */,
+				0F63CB902C7A5C560084B5B3 /* StrongPassword.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -343,6 +347,7 @@
 				0F7236B22B7D84BB0071DA14 /* main.swift in Sources */,
 				0FA26BB02C79336400F32A87 /* DivisibleSumPairs.swift in Sources */,
 				0FD124F92C77BA370004BD8D /* CountApplesAndOranges.swift in Sources */,
+				0F63CB912C7A5C560084B5B3 /* StrongPassword.swift in Sources */,
 				0FA26BB32C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
 				0FEF8E102C52F197000AA27A /* ValidParentheses.swift in Sources */,
 				0FC5A8AA2C49C32600B569F0 /* LongestCommonPrefix.swift in Sources */,
@@ -392,6 +397,7 @@
 				0F63CB852C7A36CE0084B5B3 /* BetweenTwoSets.swift in Sources */,
 				0FAC76B12C7413D2004E92CD /* RemoveElement.swift in Sources */,
 				0FD124F72C77A1000004BD8D /* GradingStudents.swift in Sources */,
+				0F63CB922C7A5C560084B5B3 /* StrongPassword.swift in Sources */,
 				0FA26BB42C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
 				0FD124FE2C77C5180004BD8D /* Kangaroo.swift in Sources */,
 				0F258C2C2C7574B1003B080E /* DiagonalDifference.swift in Sources */,

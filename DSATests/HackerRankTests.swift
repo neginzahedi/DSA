@@ -150,4 +150,10 @@ final class HackerRankTests: XCTestCase {
         XCTAssertEqual(camelcase(s: ""), 0)
         XCTAssertEqual(camelcase(s: "test"), 1)
     }
+    
+    // MARK: - minimumNumber
+    func testMinimumNumber(){
+        XCTAssertEqual(minimumNumber(n: 3, password: "Ab1"), 3)
+        XCTAssertEqual(minimumNumber(n: 11, password: "#HackerRank"), 1)
+    }
 }
