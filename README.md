@@ -24,5 +24,5 @@ This repository contains solutions to data structure and algorithm problems from
 | [Staircase](DSA/HackerRank/Warmup/Staircase.swift) |[Subarray Division](DSA/HackerRank/Implementation/SubarrayDivision.swift)|
 | [Mini-Max Sum](DSA/HackerRank/Warmup/MiniMaxSum.swift) | [Divisible Sum Pairs](DSA/HackerRank/Implementation/DivisibleSumPairs.swift) |
 | [Time Conversion](DSA/HackerRank/Warmup/TimeConversion.swift) |[Migratory Birds](DSA/HackerRank/Implementation/MigratoryBirds.swift)|
-| [Lonely Integer](DSA/HackerRank/Warmup/LonelyInteger.swift) ||                              
+| [Lonely Integer](DSA/HackerRank/Warmup/LonelyInteger.swift) |[Between Two Sets](DSA/HackerRank/Implementation/BetweenTwoSets.swift)|                              
 | [Counting Sort](DSA/HackerRank/Warmup/CountingSort.swift) ||
