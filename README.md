@@ -23,6 +23,6 @@ This repository contains solutions to data structure and algorithm problems from
 | [Plus Minus](DSA/HackerRank/Warmup/PlusMinus.swift) | [Breaking The Records](DSA/HackerRank/Implementation/BreakingTheRecords.swift) |
 | [Staircase](DSA/HackerRank/Warmup/Staircase.swift) |[Subarray Division](DSA/HackerRank/Implementation/SubarrayDivision.swift)|
 | [Mini-Max Sum](DSA/HackerRank/Warmup/MiniMaxSum.swift) | [Divisible Sum Pairs](DSA/HackerRank/Implementation/DivisibleSumPairs.swift) |
-| [Time Conversion](DSA/HackerRank/Warmup/TimeConversion.swift) ||
+| [Time Conversion](DSA/HackerRank/Warmup/TimeConversion.swift) |[Migratory Birds](DSA/HackerRank/Implementation/MigratoryBirds.swift)|
 | [Lonely Integer](DSA/HackerRank/Warmup/LonelyInteger.swift) ||                              
 | [Counting Sort](DSA/HackerRank/Warmup/CountingSort.swift) ||
