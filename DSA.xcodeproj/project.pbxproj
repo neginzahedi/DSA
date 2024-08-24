@@ -150,6 +150,23 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		0F63CB9C2C7A95E20084B5B3 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				0F9BB8C32C75391700DC0295 /* Warmup */,
+				0FD124FB2C77BE490004BD8D /* Implementation */,
+				0F63CB892C7A4C8C0084B5B3 /* Strings */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		0F63CB9D2C7A96050084B5B3 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
 		0F7236A52B7D84BB0071DA14 = {
 			isa = PBXGroup;
 			children = (
@@ -189,9 +206,8 @@
 		0F9BB8BF2C7531CB00DC0295 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
-				0F63CB892C7A4C8C0084B5B3 /* Strings */,
-				0FD124FB2C77BE490004BD8D /* Implementation */,
-				0F9BB8C32C75391700DC0295 /* Warmup */,
+				0F63CB9D2C7A96050084B5B3 /* DataStructures */,
+				0F63CB9C2C7A95E20084B5B3 /* Algorithms */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
