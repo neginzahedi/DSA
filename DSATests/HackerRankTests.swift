@@ -123,4 +123,12 @@ final class HackerRankTests: XCTestCase {
     func testDivisibleSumPairs(){
         XCTAssertEqual(divisibleSumPairs(n: 6, k: 3, ar: [1,3,2,6,1,2]), 5, "Expected 5 for the given input.")
     }
+    
+    // MARK: - migratoryBirds
+    func testMigratoryBirds(){
+        XCTAssertEqual(migratoryBirds(arr: [1,1,2,2,3]), 1, "Expected 1 for the given input.")
+        XCTAssertEqual(migratoryBirds(arr: [1,4,4,4,5,3]), 4, "Expected 4 for the given input.")
+        XCTAssertEqual(migratoryBirds(arr: [1,2,3,4,5,4,3,2,1,3,4]), 3, "Expected 3 for the given input.")
+
+    }
 }
