@@ -136,4 +136,12 @@ final class HackerRankTests: XCTestCase {
         XCTAssertEqual(getTotalX(a: [2,4], b: [16,32,96]), 3)
         XCTAssertEqual(getTotalX(a: [100,99,98,97,96,95,94,93,92,91], b: [1,2,3,4,5,6,7,8,9,10]), 0)
     }
+    
+    // MARK: - superReducedString
+    func testSuperReducedString(){
+        XCTAssertEqual(superReducedString(s: "aaabccddd"), "abd")
+        XCTAssertEqual(superReducedString(s: "aa"), "Empty String")
+        XCTAssertEqual(superReducedString(s: "baab"), "Empty String")
+
+    }
 }
