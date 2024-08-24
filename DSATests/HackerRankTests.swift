@@ -129,6 +129,11 @@ final class HackerRankTests: XCTestCase {
         XCTAssertEqual(migratoryBirds(arr: [1,1,2,2,3]), 1, "Expected 1 for the given input.")
         XCTAssertEqual(migratoryBirds(arr: [1,4,4,4,5,3]), 4, "Expected 4 for the given input.")
         XCTAssertEqual(migratoryBirds(arr: [1,2,3,4,5,4,3,2,1,3,4]), 3, "Expected 3 for the given input.")
-
+    }
+    
+    // MARK: - getTotalX
+    func testGetTotalX(){
+        XCTAssertEqual(getTotalX(a: [2,4], b: [16,32,96]), 3)
+        XCTAssertEqual(getTotalX(a: [100,99,98,97,96,95,94,93,92,91], b: [1,2,3,4,5,6,7,8,9,10]), 0)
     }
 }
