@@ -73,6 +73,8 @@
 		0FE4EC572C766F7900090D87 /* HackerRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4EC562C766F7900090D87 /* HackerRankTests.swift */; };
 		0FEF8E102C52F197000AA27A /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF8E0F2C52F197000AA27A /* ValidParentheses.swift */; };
 		0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */; };
+		0FF234D92C7B883900489CC3 /* LeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234D82C7B883900489CC3 /* LeftRotation.swift */; };
+		0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234D82C7B883900489CC3 /* LeftRotation.swift */; };
 		0FFCAF282C73BF4D0043A6F0 /* DSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +126,7 @@
 		0FE4EC562C766F7900090D87 /* HackerRankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerRankTests.swift; sourceTree = "<group>"; };
 		0FEF8E0F2C52F197000AA27A /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
+		0FF234D82C7B883900489CC3 /* LeftRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotation.swift; sourceTree = "<group>"; };
 		0FFCAF252C73BF4D0043A6F0 /* DSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +182,7 @@
 			children = (
 				0F63CBA12C7A98750084B5B3 /* 2DArrays.swift */,
 				0F63CB9E2C7A964A0084B5B3 /* Arrays-DS.swift */,
+				0FF234D82C7B883900489CC3 /* LeftRotation.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -376,6 +380,7 @@
 			files = (
 				0F9BB8C82C7544DC00DC0295 /* TimeConversion.swift in Sources */,
 				0F63CB8B2C7A4CB00084B5B3 /* SuperReducedString.swift in Sources */,
+				0FF234D92C7B883900489CC3 /* LeftRotation.swift in Sources */,
 				0FAC76AD2C73E21A004E92CD /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				0FE4EC512C76690100090D87 /* AVeryBigSum.swift in Sources */,
 				0F63CB8E2C7A58720084B5B3 /* CamelCase.swift in Sources */,
@@ -440,6 +445,7 @@
 				0FD124F72C77A1000004BD8D /* GradingStudents.swift in Sources */,
 				0F63CB922C7A5C560084B5B3 /* StrongPassword.swift in Sources */,
 				0FA26BB42C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
+				0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */,
 				0FD124FE2C77C5180004BD8D /* Kangaroo.swift in Sources */,
 				0F258C2C2C7574B1003B080E /* DiagonalDifference.swift in Sources */,
 				0F9BB8C22C75322300DC0295 /* PlusMinus.swift in Sources */,
