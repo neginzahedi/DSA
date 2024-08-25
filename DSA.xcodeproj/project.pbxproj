@@ -85,6 +85,8 @@
 		0FF234E72C7B9FB600489CC3 /* DeleteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234E52C7B9FB600489CC3 /* DeleteNode.swift */; };
 		0FF234E92C7BA6AC00489CC3 /* PrintInReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234E82C7BA6AC00489CC3 /* PrintInReverse.swift */; };
 		0FF234EA2C7BA6AC00489CC3 /* PrintInReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234E82C7BA6AC00489CC3 /* PrintInReverse.swift */; };
+		0FF234EC2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */; };
+		0FF234ED2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */; };
 		0FFCAF282C73BF4D0043A6F0 /* DSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +144,7 @@
 		0FF234E22C7B9D5400489CC3 /* SinglyLinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedListNode.swift; sourceTree = "<group>"; };
 		0FF234E52C7B9FB600489CC3 /* DeleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNode.swift; sourceTree = "<group>"; };
 		0FF234E82C7BA6AC00489CC3 /* PrintInReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintInReverse.swift; sourceTree = "<group>"; };
+		0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		0FFCAF252C73BF4D0043A6F0 /* DSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -304,6 +307,7 @@
 				0FF234E22C7B9D5400489CC3 /* SinglyLinkedListNode.swift */,
 				0FF234E52C7B9FB600489CC3 /* DeleteNode.swift */,
 				0FF234E82C7BA6AC00489CC3 /* PrintInReverse.swift */,
+				0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */,
 			);
 			path = LinkedLists;
 			sourceTree = "<group>";
@@ -431,6 +435,7 @@
 				0FA26BAA2C78FD6B00F32A87 /* BreakingTheRecords.swift in Sources */,
 				0FE4EC542C766B9300090D87 /* Staircase.swift in Sources */,
 				0F63CB9A2C7A950F0084B5B3 /* SimpleArraySum.swift in Sources */,
+				0FF234EC2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */,
 				0F258C282C756941003B080E /* LonelyInteger.swift in Sources */,
 				0FD384FA2C7675FD00BAADE3 /* BirthdayCakeCandles.swift in Sources */,
 				0FA26BAD2C79044B00F32A87 /* SubarrayDivision.swift in Sources */,
@@ -480,6 +485,7 @@
 				0FD124F72C77A1000004BD8D /* GradingStudents.swift in Sources */,
 				0F63CB922C7A5C560084B5B3 /* StrongPassword.swift in Sources */,
 				0FF234E72C7B9FB600489CC3 /* DeleteNode.swift in Sources */,
+				0FF234ED2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */,
 				0FA26BB42C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
 				0FF234DE2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */,
 				0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */,
