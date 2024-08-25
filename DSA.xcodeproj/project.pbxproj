@@ -87,6 +87,8 @@
 		0FF234EA2C7BA6AC00489CC3 /* PrintInReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234E82C7BA6AC00489CC3 /* PrintInReverse.swift */; };
 		0FF234EC2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */; };
 		0FF234ED2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */; };
+		0FF234EF2C7BCCF900489CC3 /* SparseArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234EE2C7BCCF900489CC3 /* SparseArrays.swift */; };
+		0FF234F02C7BCCF900489CC3 /* SparseArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234EE2C7BCCF900489CC3 /* SparseArrays.swift */; };
 		0FFCAF282C73BF4D0043A6F0 /* DSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +147,7 @@
 		0FF234E52C7B9FB600489CC3 /* DeleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNode.swift; sourceTree = "<group>"; };
 		0FF234E82C7BA6AC00489CC3 /* PrintInReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintInReverse.swift; sourceTree = "<group>"; };
 		0FF234EB2C7BAC6100489CC3 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		0FF234EE2C7BCCF900489CC3 /* SparseArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparseArrays.swift; sourceTree = "<group>"; };
 		0FFCAF252C73BF4D0043A6F0 /* DSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +205,7 @@
 				0F63CBA12C7A98750084B5B3 /* 2DArrays.swift */,
 				0F63CB9E2C7A964A0084B5B3 /* Arrays-DS.swift */,
 				0FF234D82C7B883900489CC3 /* LeftRotation.swift */,
+				0FF234EE2C7BCCF900489CC3 /* SparseArrays.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -424,6 +428,7 @@
 				0FA26BB02C79336400F32A87 /* DivisibleSumPairs.swift in Sources */,
 				0F63CBA22C7A98750084B5B3 /* 2DArrays.swift in Sources */,
 				0FD124F92C77BA370004BD8D /* CountApplesAndOranges.swift in Sources */,
+				0FF234EF2C7BCCF900489CC3 /* SparseArrays.swift in Sources */,
 				0F63CB912C7A5C560084B5B3 /* StrongPassword.swift in Sources */,
 				0FA26BB32C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
 				0FEF8E102C52F197000AA27A /* ValidParentheses.swift in Sources */,
@@ -488,6 +493,7 @@
 				0FF234ED2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */,
 				0FA26BB42C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
 				0FF234DE2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */,
+				0FF234F02C7BCCF900489CC3 /* SparseArrays.swift in Sources */,
 				0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */,
 				0FD124FE2C77C5180004BD8D /* Kangaroo.swift in Sources */,
 				0F258C2C2C7574B1003B080E /* DiagonalDifference.swift in Sources */,
