@@ -7,21 +7,10 @@
 
 import Foundation
 
-
-class SinglyLinkedListNode {
-    var data: Int
-    var next: SinglyLinkedListNode?
-    
-    init(data: Int) {
-        self.data = data
-        self.next = nil
-    }
-}
-
 func printLinkedList(head: SinglyLinkedListNode?) -> Void {
     var currentNode = head
     while let node = currentNode {
-        print(node.data)
+        print(node.nodeData)
         currentNode = node.next
     }
 }
