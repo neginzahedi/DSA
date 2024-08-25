@@ -75,6 +75,8 @@
 		0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */; };
 		0FF234D92C7B883900489CC3 /* LeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234D82C7B883900489CC3 /* LeftRotation.swift */; };
 		0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234D82C7B883900489CC3 /* LeftRotation.swift */; };
+		0FF234DD2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234DC2C7B979700489CC3 /* PrintElementsOfLinked List.swift */; };
+		0FF234DE2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF234DC2C7B979700489CC3 /* PrintElementsOfLinked List.swift */; };
 		0FFCAF282C73BF4D0043A6F0 /* DSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +129,7 @@
 		0FEF8E0F2C52F197000AA27A /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
 		0FF234D82C7B883900489CC3 /* LeftRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRotation.swift; sourceTree = "<group>"; };
+		0FF234DC2C7B979700489CC3 /* PrintElementsOfLinked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrintElementsOfLinked List.swift"; sourceTree = "<group>"; };
 		0FFCAF252C73BF4D0043A6F0 /* DSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +175,7 @@
 		0F63CB9D2C7A96050084B5B3 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				0FF234DB2C7B977100489CC3 /* LinkedLists */,
 				0F63CBA72C7AAE820084B5B3 /* Arrays */,
 			);
 			path = DataStructures;
@@ -278,6 +282,14 @@
 				0F63CB832C7A36CE0084B5B3 /* BetweenTwoSets.swift */,
 			);
 			path = Implementation;
+			sourceTree = "<group>";
+		};
+		0FF234DB2C7B977100489CC3 /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				0FF234DC2C7B979700489CC3 /* PrintElementsOfLinked List.swift */,
+			);
+			path = LinkedLists;
 			sourceTree = "<group>";
 		};
 		0FFCAF262C73BF4D0043A6F0 /* DSATests */ = {
@@ -404,6 +416,7 @@
 				0F258C282C756941003B080E /* LonelyInteger.swift in Sources */,
 				0FD384FA2C7675FD00BAADE3 /* BirthdayCakeCandles.swift in Sources */,
 				0FA26BAD2C79044B00F32A87 /* SubarrayDivision.swift in Sources */,
+				0FF234DD2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */,
 				0FE4EC482C7646BD00090D87 /* CountingSort.swift in Sources */,
 				0FAC76AA2C73CBCD004E92CD /* MergeTwoSortedLists.swift in Sources */,
 				0FAC76B02C740BF6004E92CD /* RemoveElement.swift in Sources */,
@@ -445,6 +458,7 @@
 				0FD124F72C77A1000004BD8D /* GradingStudents.swift in Sources */,
 				0F63CB922C7A5C560084B5B3 /* StrongPassword.swift in Sources */,
 				0FA26BB42C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
+				0FF234DE2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */,
 				0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */,
 				0FD124FE2C77C5180004BD8D /* Kangaroo.swift in Sources */,
 				0F258C2C2C7574B1003B080E /* DiagonalDifference.swift in Sources */,
