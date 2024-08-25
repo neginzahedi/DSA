@@ -15,14 +15,9 @@ This repository contains solutions to data structure and algorithm problems from
 
 ## HackerRank Problems:
 
-| Waemup | Implementation |
+| Algorithms | Data Structures |
 |--------|----------------|
-| [Compare the Triplets](DSA/HackerRank/Warmup/CompareTriplets.swift) | [Grading Students](DSA/HackerRank/Implementation/GradingStudents.swift)|
-| [A Very Big Sum](DSA/HackerRank/Warmup/AVeryBigSum.swift) | [Apple and Orange](DSA/HackerRank/Implementation/CountApplesAndOranges.swift) |
-| [Diagonal Difference](DSA/HackerRank/Warmup/DiagonalDifference.swift) | [Number Line Jumps](DSA/HackerRank/Implementation/Kangaroo.swift) |
-| [Plus Minus](DSA/HackerRank/Warmup/PlusMinus.swift) | [Breaking The Records](DSA/HackerRank/Implementation/BreakingTheRecords.swift) |
-| [Staircase](DSA/HackerRank/Warmup/Staircase.swift) |[Subarray Division](DSA/HackerRank/Implementation/SubarrayDivision.swift)|
-| [Mini-Max Sum](DSA/HackerRank/Warmup/MiniMaxSum.swift) | [Divisible Sum Pairs](DSA/HackerRank/Implementation/DivisibleSumPairs.swift) |
-| [Time Conversion](DSA/HackerRank/Warmup/TimeConversion.swift) |[Migratory Birds](DSA/HackerRank/Implementation/MigratoryBirds.swift)|
-| [Lonely Integer](DSA/HackerRank/Warmup/LonelyInteger.swift) |[Between Two Sets](DSA/HackerRank/Implementation/BetweenTwoSets.swift)|                              
-| [Counting Sort](DSA/HackerRank/Warmup/CountingSort.swift) ||
+| [Warmup](DSA/HackerRank/Algorithms/Warmup) | [Arrays](DSA/HackerRank/DataStructures/Arrays)|
+| [Implementation](DSA/HackerRank/Algorithms/Implementation) | |
+| [Strings](DSA/HackerRank/Algorithms/Strings) ||
+
