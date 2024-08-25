@@ -169,10 +169,18 @@
 		0F63CB9D2C7A96050084B5B3 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				0F63CB9E2C7A964A0084B5B3 /* Arrays-DS.swift */,
-				0F63CBA12C7A98750084B5B3 /* 2DArrays.swift */,
+				0F63CBA72C7AAE820084B5B3 /* Arrays */,
 			);
 			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		0F63CBA72C7AAE820084B5B3 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				0F63CBA12C7A98750084B5B3 /* 2DArrays.swift */,
+				0F63CB9E2C7A964A0084B5B3 /* Arrays-DS.swift */,
+			);
+			path = Arrays;
 			sourceTree = "<group>";
 		};
 		0F7236A52B7D84BB0071DA14 = {
