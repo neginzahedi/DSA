@@ -15,17 +15,19 @@ import Foundation
  *  2. INTEGER_ARRAY arr
  */
 
-func insertionSort1(n: Int, arr: [Int]) -> Void {
-    var arr = arr
-    let last = arr[n-1]
-    var i = n - 2
-    
-    while i >= 0 && arr[i] > last {
-        arr[i+1] = arr[i]
+extension Sorting{
+    func insertionSort1(n: Int, arr: [Int]) -> Void {
+        var arr = arr
+        let last = arr[n-1]
+        var i = n - 2
+        
+        while i >= 0 && arr[i] > last {
+            arr[i+1] = arr[i]
+            print(arr.map{String($0)}.joined(separator: " "))
+            i -= 1
+        }
+        
+        arr[i + 1] = last
         print(arr.map{String($0)}.joined(separator: " "))
-        i -= 1
     }
-    
-    arr[i + 1] = last
-    print(arr.map{String($0)}.joined(separator: " "))
 }

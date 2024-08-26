@@ -13,14 +13,15 @@ import Foundation
  * The function is expected to return a STRING_ARRAY.
  * The function accepts STRING_ARRAY unsorted as parameter.
  */
-
-func bigSorting(unsorted: [String]) -> [String] {
-    let sorted = unsorted.sorted {
-        if $0.count == $1.count{
-            return $0 < $1
-        } else {
-            return $0.count < $1.count
+extension Sorting {
+    func bigSorting(unsorted: [String]) -> [String] {
+        let sorted = unsorted.sorted {
+            if $0.count == $1.count{
+                return $0 < $1
+            } else {
+                return $0.count < $1.count
+            }
         }
+        return sorted
     }
-    return sorted
 }

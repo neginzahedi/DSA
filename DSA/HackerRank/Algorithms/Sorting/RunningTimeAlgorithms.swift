@@ -14,22 +14,24 @@ import Foundation
  * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
-func runningTime(arr: [Int]) -> Int {
-    var arr = arr
-    var counter = 0
-    
-    for i in 1..<arr.count {
-        var current = arr[i]
-        var j = i - 1
+extension Sorting{
+    func runningTime(arr: [Int]) -> Int {
+        var arr = arr
+        var counter = 0
         
-        while j >= 0 && current < arr[j]{
-            arr[j+1] = arr[j]
-            j = j-1
-            counter += 1
+        for i in 1..<arr.count {
+            let current = arr[i]
+            var j = i - 1
+            
+            while j >= 0 && current < arr[j]{
+                arr[j+1] = arr[j]
+                j = j-1
+                counter += 1
+            }
+            
+            arr[j + 1] = current
         }
         
-        arr[j + 1] = current
+        return counter
     }
-    
-    return counter
 }

@@ -14,16 +14,17 @@ import Foundation
  * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
-func quickSort(arr: [Int]) -> [Int] {
-    
-    var arr = arr
-    let pivot = arr[0]
-    
-    let left = arr.filter{$0 < pivot}
-    let equal = arr.filter{$0 == pivot}
-    let right = arr.filter{$0 > pivot}
-
-    arr = left + equal + right
-    
-    return arr
+extension Sorting{
+    func quickSort(arr: [Int]) -> [Int] {
+        var arr = arr
+        let pivot = arr[0]
+        
+        let left = arr.filter{$0 < pivot}
+        let equal = arr.filter{$0 == pivot}
+        let right = arr.filter{$0 > pivot}
+        
+        arr = left + equal + right
+        
+        return arr
+    }
 }

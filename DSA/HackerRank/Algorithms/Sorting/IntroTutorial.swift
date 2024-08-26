@@ -16,12 +16,14 @@ import Foundation
  *  2. INTEGER_ARRAY arr
  */
 
-func introTutorial(V: Int, arr: [Int]) -> Int {
-    for i in 0..<arr.count {
-        if arr[i] == V{
-            return i
+class Sorting {
+    func introTutorial(V: Int, arr: [Int]) -> Int {
+        for i in 0..<arr.count {
+            if arr[i] == V{
+                return i
+            }
         }
+        
+        return -1
     }
-    
-    return -1
 }
