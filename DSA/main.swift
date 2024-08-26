@@ -29,5 +29,3 @@
  */
 
 print("Please refer to the Tests directory for running specific test cases.")
-
-insertionSort1(n: 10, arr: [2 ,3 ,4 ,5, 6, 7, 8, 9, 10, 1])
