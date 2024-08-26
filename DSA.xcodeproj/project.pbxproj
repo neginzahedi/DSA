@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1362582C7CE57C00E0515C /* BillDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1362572C7CE57C00E0515C /* BillDivision.swift */; };
 		0F258C282C756941003B080E /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F258C272C756941003B080E /* LonelyInteger.swift */; };
 		0F258C292C756941003B080E /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F258C272C756941003B080E /* LonelyInteger.swift */; };
 		0F258C2B2C7574B1003B080E /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F258C2A2C7574B0003B080E /* DiagonalDifference.swift */; };
@@ -105,6 +106,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F1362572C7CE57C00E0515C /* BillDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDivision.swift; sourceTree = "<group>"; };
 		0F258C272C756941003B080E /* LonelyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
 		0F258C2A2C7574B0003B080E /* DiagonalDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		0F63CB832C7A36CE0084B5B3 /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				0FA26BAF2C79336400F32A87 /* DivisibleSumPairs.swift */,
 				0FA26BB22C7941DF00F32A87 /* MigratoryBirds.swift */,
 				0F63CB832C7A36CE0084B5B3 /* BetweenTwoSets.swift */,
+				0F1362572C7CE57C00E0515C /* BillDivision.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				0FC5A8AA2C49C32600B569F0 /* LongestCommonPrefix.swift in Sources */,
 				0FF03FAA2B813A4C0010D635 /* IsPalindrome.swift in Sources */,
 				0F63CB842C7A36CE0084B5B3 /* BetweenTwoSets.swift in Sources */,
+				0F1362582C7CE57C00E0515C /* BillDivision.swift in Sources */,
 				0F9BB8C52C75392400DC0295 /* MiniMaxSum.swift in Sources */,
 				0FC5A8A52C49C03200B569F0 /* RomanToInt.swift in Sources */,
 				0FA26BAA2C78FD6B00F32A87 /* BreakingTheRecords.swift in Sources */,
