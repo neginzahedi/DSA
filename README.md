@@ -30,7 +30,7 @@ This repository contains solutions to data structure and algorithm problems from
   </tr>
   <tr>
     <td><a href="DSA/HackerRank/Algorithms/Warmup">Warmup</a> <span>(10/10)</span></td>
-    <td><a href="DSA/HackerRank/DataStructures/Arrays">Arrays</a> <span>(5/6)</span></td>
+    <td><a href="DSA/HackerRank/DataStructures/Arrays">Arrays</a> <span>(4/6)</span></td>
     <td>Fundamentals</td>
   </tr>
   <tr>
