@@ -16,8 +16,8 @@ import Foundation
 
 func findMedian(arr: [Int]) -> Int {
     // Write your code here
-    var sortedArr = arr.sorted()
-    var median = Int(sortedArr.count / 2)
+    let sortedArr = arr.sorted()
+    let median = Int(sortedArr.count / 2)
     
     return sortedArr[median]
 }

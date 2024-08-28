@@ -28,6 +28,10 @@
 		0F1362742C7D4AC000E0515C /* ClosestNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1362722C7D4AC000E0515C /* ClosestNumbers.swift */; };
 		0F1362762C7D4ECD00E0515C /* FindMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1362752C7D4ECD00E0515C /* FindMedian.swift */; };
 		0F1362772C7D4ECD00E0515C /* FindMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1362752C7D4ECD00E0515C /* FindMedian.swift */; };
+		0F13627A2C7D5BB400E0515C /* StringAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1362792C7D5BB400E0515C /* StringAnagram.swift */; };
+		0F13627B2C7D5BB400E0515C /* StringAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1362792C7D5BB400E0515C /* StringAnagram.swift */; };
+		0F13627D2C7D60FE00E0515C /* PasswordDecryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13627C2C7D60FE00E0515C /* PasswordDecryption.swift */; };
+		0F13627E2C7D60FE00E0515C /* PasswordDecryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13627C2C7D60FE00E0515C /* PasswordDecryption.swift */; };
 		0F258C282C756941003B080E /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F258C272C756941003B080E /* LonelyInteger.swift */; };
 		0F258C292C756941003B080E /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F258C272C756941003B080E /* LonelyInteger.swift */; };
 		0F258C2B2C7574B1003B080E /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F258C2A2C7574B0003B080E /* DiagonalDifference.swift */; };
@@ -137,6 +141,8 @@
 		0F13626F2C7D3D2100E0515C /* CountingSortTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSortTwo.swift; sourceTree = "<group>"; };
 		0F1362722C7D4AC000E0515C /* ClosestNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestNumbers.swift; sourceTree = "<group>"; };
 		0F1362752C7D4ECD00E0515C /* FindMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedian.swift; sourceTree = "<group>"; };
+		0F1362792C7D5BB400E0515C /* StringAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAnagram.swift; sourceTree = "<group>"; };
+		0F13627C2C7D60FE00E0515C /* PasswordDecryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDecryption.swift; sourceTree = "<group>"; };
 		0F258C272C756941003B080E /* LonelyInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
 		0F258C2A2C7574B0003B080E /* DiagonalDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		0F63CB832C7A36CE0084B5B3 /* BetweenTwoSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenTwoSets.swift; sourceTree = "<group>"; };
@@ -219,6 +225,29 @@
 			path = Sorting;
 			sourceTree = "<group>";
 		};
+		0F1362782C7D5BA100E0515C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1362792C7D5BB400E0515C /* StringAnagram.swift */,
+				0F13627C2C7D60FE00E0515C /* PasswordDecryption.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		0F24087B2C7F892C00FE65A6 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		0F24087C2C7F893300FE65A6 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
 		0F63CB892C7A4C8C0084B5B3 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +320,8 @@
 		0F9BB8BE2C7531BB00DC0295 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				0F24087C2C7F893300FE65A6 /* Hard */,
+				0F24087B2C7F892C00FE65A6 /* Medium */,
 				0FC5A8A82C49C2CD00B569F0 /* Easy */,
 			);
 			path = LeetCode;
@@ -299,6 +330,7 @@
 		0F9BB8BF2C7531CB00DC0295 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				0F1362782C7D5BA100E0515C /* Tests */,
 				0F63CB9D2C7A96050084B5B3 /* DataStructures */,
 				0F63CB9C2C7A95E20084B5B3 /* Algorithms */,
 			);
@@ -465,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F13627A2C7D5BB400E0515C /* StringAnagram.swift in Sources */,
 				0F13625A2C7CE97000E0515C /* BigSorting.swift in Sources */,
 				0F1362702C7D3D2100E0515C /* CountingSortTwo.swift in Sources */,
 				0F9BB8C82C7544DC00DC0295 /* TimeConversion.swift in Sources */,
@@ -503,6 +536,7 @@
 				0F258C282C756941003B080E /* LonelyInteger.swift in Sources */,
 				0F1362672C7D2E3200E0515C /* RunningTimeAlgorithms.swift in Sources */,
 				0FD384FA2C7675FD00BAADE3 /* BirthdayCakeCandles.swift in Sources */,
+				0F13627D2C7D60FE00E0515C /* PasswordDecryption.swift in Sources */,
 				0FA26BAD2C79044B00F32A87 /* SubarrayDivision.swift in Sources */,
 				0FF234DD2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */,
 				0FE4EC482C7646BD00090D87 /* CountingSort.swift in Sources */,
@@ -524,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F13627B2C7D5BB400E0515C /* StringAnagram.swift in Sources */,
 				0F13625B2C7CE97000E0515C /* BigSorting.swift in Sources */,
 				0F1362712C7D3D2100E0515C /* CountingSortTwo.swift in Sources */,
 				0FA26BAE2C79044B00F32A87 /* SubarrayDivision.swift in Sources */,
@@ -562,6 +597,7 @@
 				0FF234ED2C7BAC6100489CC3 /* ReverseLinkedList.swift in Sources */,
 				0F1362682C7D2E3200E0515C /* RunningTimeAlgorithms.swift in Sources */,
 				0FA26BB42C7941DF00F32A87 /* MigratoryBirds.swift in Sources */,
+				0F13627E2C7D60FE00E0515C /* PasswordDecryption.swift in Sources */,
 				0FF234DE2C7B979700489CC3 /* PrintElementsOfLinked List.swift in Sources */,
 				0FF234F02C7BCCF900489CC3 /* SparseArrays.swift in Sources */,
 				0FF234DA2C7B883900489CC3 /* LeftRotation.swift in Sources */,
