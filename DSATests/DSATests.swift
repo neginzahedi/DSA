@@ -199,4 +199,12 @@ final class DSATests: XCTestCase {
         let digits4 = [9,9,9]
         XCTAssertEqual(plusOne(digits4), [1,0,0,0])
     }
+    
+    //MARK: - mySqrt
+    func testMySqrt(){
+        XCTAssertEqual(mySqrt(0),0)
+        XCTAssertEqual(mySqrt(1),1)
+        XCTAssertEqual(mySqrt(4),2)
+        XCTAssertEqual(mySqrt(8),2)
+    }
 }
