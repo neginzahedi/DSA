@@ -156,4 +156,23 @@ final class DSATests: XCTestCase {
           XCTAssertEqual(result6, 1)
           XCTAssertEqual(Array(nums6[0..<result6]), [10])
       }
+    
+    // MARK: searchInsert
+    func testSearchInsert(){
+        let nums1 = [1,3,4,5]
+        let target1 = 2
+        XCTAssertEqual(searchInsert(nums1, target1), 1)
+        
+        let nums2 = [1,2,3,4,5]
+        let target2 = 4
+        XCTAssertEqual(searchInsert(nums2, target2), 3)
+        
+        let nums3 = [1]
+        let target3 = 7
+        XCTAssertEqual(searchInsert(nums3, target3), 1)
+        
+        let nums4 = [Int]()
+        let target4 = 10
+        XCTAssertEqual(searchInsert(nums4, target4), 0)
+    }
 }
