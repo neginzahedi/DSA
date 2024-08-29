@@ -184,4 +184,19 @@ final class DSATests: XCTestCase {
         let string2 = "   fly me   to   the moon  "
         XCTAssertEqual(lengthOfLastWord(string2), 4)
     }
+    
+    //MARK: - plusOne
+    func testPlusOne(){
+        let digits1 = [1,2,4]
+        XCTAssertEqual(plusOne(digits1), [1,2,5])
+        
+        let digits2 = [1,2,9]
+        XCTAssertEqual(plusOne(digits2), [1,3,0])
+        
+        let digits3 = [1,9,9]
+        XCTAssertEqual(plusOne(digits3), [2,0,0])
+        
+        let digits4 = [9,9,9]
+        XCTAssertEqual(plusOne(digits4), [1,0,0,0])
+    }
 }
