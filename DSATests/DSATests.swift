@@ -175,4 +175,13 @@ final class DSATests: XCTestCase {
         let target4 = 10
         XCTAssertEqual(searchInsert(nums4, target4), 0)
     }
+    
+    // MARK: - lengthOfLastWord
+    func testLengthOfLastWord(){
+        let string1 = "luffy is still joyboy"
+        XCTAssertEqual(lengthOfLastWord(string1), 6)
+        
+        let string2 = "   fly me   to   the moon  "
+        XCTAssertEqual(lengthOfLastWord(string2), 4)
+    }
 }
