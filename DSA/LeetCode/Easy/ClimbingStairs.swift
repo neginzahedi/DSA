@@ -10,20 +10,20 @@ import Foundation
 
 func climbStairs(_ n: Int) -> Int {
     var dic  = [Int:Int]()
-
+    
     if n <= 1 {
         return 1
     }
-
+    
     if dic[n] != nil {
         if let way = dic[n]{
             return way
         }
     }
     
-    var ways = climbStairs(n-1) + climbStairs(n-2)
-
+    let ways = climbStairs(n-1) + climbStairs(n-2)
+    
     dic[n] = ways
-
+    
     return ways
 }
