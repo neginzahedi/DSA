@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <td>1. Two Sum</td>
-    <td><a href="DSA/LeetCode/Easy/TwoSum.swift">TwoSum.swift</a></td>
+    <td><a href="Easy/TwoSum.swift">TwoSum.swift</a></td>
     <td>Easy</td>
   </tr>
   <tr>
