@@ -8,7 +8,7 @@ This repository contains solutions to data structure and algorithm problems from
     <th>Data Structure and Algorithms</th>
   </tr>
   <tr>
-    <td><a href="DSA/LeetCode/Easy">Easy</a> <span>(8/821)</span></td>
+    <td><a href="DSA/LeetCode/Easy">Easy</a> <span>(17/821)</span></td>
   </tr>
   <tr>
     <td><a>Medium</a></td>
