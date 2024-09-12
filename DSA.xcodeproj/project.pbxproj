@@ -83,6 +83,7 @@
 		0F7E72B12C826498003F870B /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E72AF2C826498003F870B /* TreeNode.swift */; };
 		0F7E72B32C827BA9003F870B /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E72B22C827BA9003F870B /* SameTree.swift */; };
 		0F7E72B42C827BA9003F870B /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E72B22C827BA9003F870B /* SameTree.swift */; };
+		0F9235F02C935B02009315BB /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9235EF2C935B02009315BB /* TwoSumTests.swift */; };
 		0F9BB8C12C75322300DC0295 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BB8C02C75322300DC0295 /* PlusMinus.swift */; };
 		0F9BB8C22C75322300DC0295 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BB8C02C75322300DC0295 /* PlusMinus.swift */; };
 		0F9BB8C52C75392400DC0295 /* MiniMaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BB8C42C75392400DC0295 /* MiniMaxSum.swift */; };
@@ -202,6 +203,7 @@
 		0F7E72AB2C826462003F870B /* BinaryTreeInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversal.swift; sourceTree = "<group>"; };
 		0F7E72AF2C826498003F870B /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		0F7E72B22C827BA9003F870B /* SameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
+		0F9235EF2C935B02009315BB /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		0F9BB8C02C75322300DC0295 /* PlusMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
 		0F9BB8C42C75392400DC0295 /* MiniMaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxSum.swift; sourceTree = "<group>"; };
 		0F9BB8C72C7544DC00DC0295 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
@@ -388,6 +390,15 @@
 			path = Trees;
 			sourceTree = "<group>";
 		};
+		0F9235F12C935F6B009315BB /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				0F9235EF2C935B02009315BB /* TwoSumTests.swift */,
+				0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		0F9BB8BE2C7531BB00DC0295 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,7 +493,7 @@
 		0FFCAF262C73BF4D0043A6F0 /* DSATests */ = {
 			isa = PBXGroup;
 			children = (
-				0FFCAF272C73BF4D0043A6F0 /* DSATests.swift */,
+				0F9235F12C935F6B009315BB /* LeetCode */,
 				0FE4EC562C766F7900090D87 /* HackerRankTests.swift */,
 			);
 			path = DSATests;
@@ -655,6 +666,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F13627B2C7D5BB400E0515C /* StringAnagram.swift in Sources */,
+				0F9235F02C935B02009315BB /* TwoSumTests.swift in Sources */,
 				0F13625B2C7CE97000E0515C /* BigSorting.swift in Sources */,
 				0F1362712C7D3D2100E0515C /* CountingSortTwo.swift in Sources */,
 				0F7E72B12C826498003F870B /* TreeNode.swift in Sources */,

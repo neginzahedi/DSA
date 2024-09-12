@@ -7,13 +7,6 @@ import XCTest
 
 final class DSATests: XCTestCase {
     
-    // MARK: - Two Sum Tests
-    func testTwoSum() {
-        XCTAssertEqual(twoSum([2, 7, 11, 15], 9), [1, 0], "Test Case 1 Failed")
-        XCTAssertEqual(twoSum([3, 2, 4], 6), [2, 1], "Test Case 2 Failed")
-        XCTAssertEqual(twoSum([3, 3], 6), [1, 0], "Test Case 3 Failed")
-    }
-    
     // MARK: - Is Palindrome Tests
     func testIsPalindrome() {
         XCTAssertFalse(isPalindrome(1421), "1421 is not a palindrome")
