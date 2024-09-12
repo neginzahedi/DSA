@@ -399,9 +399,26 @@
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
+		0F9235F22C935FF8009315BB /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				0F9235F32C93600D009315BB /* Easy */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		0F9235F32C93600D009315BB /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		0F9BB8BE2C7531BB00DC0295 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				0F9235F22C935FF8009315BB /* Array */,
 				0F24087C2C7F893300FE65A6 /* Hard */,
 				0F24087B2C7F892C00FE65A6 /* Medium */,
 				0FC5A8A82C49C2CD00B569F0 /* Easy */,
@@ -443,7 +460,6 @@
 				0F7E72AE2C82646C003F870B /* Trees */,
 				0F7E72A42C824029003F870B /* Linked Lists */,
 				0F7E729E2C823183003F870B /* FibonacciNumber.swift */,
-				0FC5A8A22C49BFD700B569F0 /* TwoSum.swift */,
 				0FF03FA92B813A4C0010D635 /* IsPalindrome.swift */,
 				0FC5A8A42C49C03200B569F0 /* RomanToInt.swift */,
 				0FC5A8A92C49C32600B569F0 /* LongestCommonPrefix.swift */,
