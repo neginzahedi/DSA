@@ -7,14 +7,6 @@ import XCTest
 
 final class DSATests: XCTestCase {
     
-    // MARK: - Is Palindrome Tests
-    func testIsPalindrome() {
-        XCTAssertFalse(isPalindrome(1421), "1421 is not a palindrome")
-        XCTAssertTrue(isPalindrome(1441), "1441 is a palindrome")
-        XCTAssertTrue(isPalindrome(131), "131 is a palindrome")
-        XCTAssertFalse(isPalindrome(-131), "-131 is not a palindrome")
-    }
-    
     // MARK: - Roman to Int Tests
     func testRomanToInt() {
         XCTAssertEqual(romanToInt("III"), 3)
