@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>9. Palindrome Number</td>
-    <td><a href="Easy/IsPalindrome.swift">IsPalindrome.swift</a></td>
+    <td><a href="Math/Easy/PalindromeNumber.swift">IsPalindrome.swift</a></td>
     <td>Easy</td>
   </tr>
   <tr>
