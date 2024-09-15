@@ -7,14 +7,6 @@ import XCTest
 
 final class DSATests: XCTestCase {
     
-    // MARK: - Roman to Int Tests
-    func testRomanToInt() {
-        XCTAssertEqual(romanToInt("III"), 3)
-        XCTAssertEqual(romanToInt("IV"), 4)
-        XCTAssertEqual(romanToInt("LVIII"), 58)
-        XCTAssertEqual(romanToInt("MCMXCIV"), 1994)
-    }
-    
     // MARK: - Longest Common Prefix Tests
     func testLongestCommonPrefix() {
         XCTAssertEqual(longestCommonPrefix(["flower","flow","flight"]), "fl")
